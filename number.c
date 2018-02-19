@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int a,re=0;
 printf("enter the number:");
@@ -11,5 +11,4 @@ re=re+a%10;
 a=a/10;
 }
 printf("the reverse of the number",re);
-return 0;
 }
